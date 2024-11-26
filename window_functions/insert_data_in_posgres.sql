@@ -1,4 +1,4 @@
-i-- postgress sql window functions example
+-- postgress sql window functions example
 
 
 DROP TABLE IF EXISTS products;
