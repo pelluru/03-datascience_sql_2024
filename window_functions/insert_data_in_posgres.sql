@@ -1,4 +1,14 @@
-i-- postgress sql window functions example
+-- postgress sql window functions example
+
+-- postgress sql window functions example
+
+
+
+DROP TABLE IF EXISTS product_groups CASCADE;
+CREATE TABLE product_groups (
+group_id serial PRIMARY KEY,
+	group_name VARCHAR (255) NOT NULL
+);
 
 
 DROP TABLE IF EXISTS products;
@@ -10,11 +20,6 @@ CREATE TABLE products (
 	FOREIGN KEY (group_id) REFERENCES product_groups (group_id)
 );
 
-DROP TABLE IF EXISTS product_groups CASCADE;
-CREATE TABLE product_groups (
-group_id serial PRIMARY KEY,
-	group_name VARCHAR (255) NOT NULL
-);
 
 
 INSERT INTO product_groups (group_name)
@@ -35,4 +40,7 @@ VALUES
 	('iPad', 3, 700),
 	('Kindle Fire', 3, 150),
 	('Samsung Galaxy Tab', 3, 200);
+
+select * from products;
+
 
