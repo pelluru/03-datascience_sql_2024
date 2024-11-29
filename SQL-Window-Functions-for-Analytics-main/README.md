@@ -20,3 +20,4 @@ This repository contains the following files:
 - **Sales.csv**: This file contains the data of the sales transactions made by the customers. The columns are: `OrderID`, `OrderDate`, `CustomerID`, `ProductID`, `Quantity`, and `UnitPrice`.
 - **project-db.txt**: This file contains the instructions on how to create a database and import the data from the CSV files using SQLite.
 
+-- Please use pgadmin to load customer.csv and sales.csv to posgres sql - remove header row 
