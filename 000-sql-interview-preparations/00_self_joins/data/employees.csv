@@ -1,0 +1,12 @@
+id,employee_first_name,employee_last_name,manager_id
+1,Frank,Cappa,8
+2,Carlos,Montana,1
+3,Dennis,Mopper,NULL
+4,Tina,Burner,3
+5,Roni,Mitchell,4
+6,Rita,Franklin,1
+7,Barry,Seinfield,1
+8,Mike,Dyson,3
+9,John,Elton,4
+10,Sophia,KOren,1
+11,Phil,Ypung,4
